@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ToggleFullscreenDirective } from './toggle-full-screen.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToggleFullscreenDirective
   ],
   imports: [
     BrowserModule
